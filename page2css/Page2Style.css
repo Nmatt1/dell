@@ -1,0 +1,44 @@
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 120px; 
+    height: 120px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+html{
+
+height: 100%;
+width: 100%;
+background-color: BLACK;
+
+}
+body{
+
+height: 100%;
+width: 100%;
+background-color: black;
+
+}
+.header{
+
+height: 50PX;
+width: 100%;
+background-color: PURPLE;
+float: left;
+}
+<style>
+#button {
+    width: 6em;
+    border: 2px solid green;
+    background: #66FFFF;
+    border-radius: 5px;
+}

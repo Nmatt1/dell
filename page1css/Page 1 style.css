@@ -1,0 +1,28 @@
+html{
+
+height: 100%;
+width: 100%;
+background-color: BLACK;
+
+}
+body{
+
+height: 100%;
+width: 100%;
+background-color: black;
+
+}
+.header{
+
+height: 50PX;
+width: 100%;
+background-color: PURPLE;
+float: left;
+}
+<style>
+#button {
+	width: 6em;
+	border: 2px solid green;
+	background: #66FFFF;
+	border-radius: 5px;
+}
