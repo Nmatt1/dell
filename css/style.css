@@ -22,21 +22,21 @@ html{
 
 height: 100%;
 width: 100%;
-background-color: BLACK;
+background-color: white;
 
 }
 body{
 
 height: 100%;
 width: 100%;
-background-color: black;
+background-color: white;
 
 }
 .header{
 
-height: 50PX;
+height: 100PX;
 width: 100%;
-background-color: PURPLE;
+background-color: white;
 float: left;
 }
 <style>
@@ -44,7 +44,7 @@ float: left;
     width: 6em;
     border: 2px solid green;
     background: #66FFFF;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 
@@ -58,8 +58,8 @@ float: left;
 
 /* The navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+  overflow: show;
+  background-color: #0058EF;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -69,7 +69,7 @@ float: left;
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #0058EF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -77,8 +77,8 @@ float: left;
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  background: #0058EF;
+  color: purple;
 }
 
 /* Main content */
@@ -112,3 +112,8 @@ float: left;
   flex: 33.33%;
   padding: 5px;
 }
+
+
+
+
+
