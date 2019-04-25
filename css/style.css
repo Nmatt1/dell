@@ -1,6 +1,6 @@
 .login_form {
-	border: 1px solid #AAA;
-	padding:10px;
+  border: 1px solid #AAA;
+  padding:10px;
 }
 #slideshow { 
     margin: 50px auto; 
@@ -59,7 +59,7 @@ float: left;
 /* The navigation bar */
 .navbar {
   overflow: show;
-  background-color: #0058EF;
+  background-color: #000;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -69,7 +69,7 @@ float: left;
 .navbar a {
   float: left;
   display: block;
-  color: #0058EF;
+  color: #FFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -91,29 +91,26 @@ float: left;
 
 
 
+
+
+
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.33%;
+  width: 20%;
   padding: 5px;
 }
 
 /* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+
 }
 .row {
   display: flex;
 }
 
 .column {
-  flex: 33.33%;
+  flex: 20%;
   padding: 5px;
 }
-
-
-
-
-
