@@ -38,6 +38,8 @@ height: 100PX;
 width: 100%;
 background-color: white;
 float: left;
+font-size: 50px;
+
 }
 <style>
 #button {
@@ -73,6 +75,7 @@ float: left;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  padding-top: 20px;
 }
 
 /* Change background on mouse-over */
@@ -98,7 +101,7 @@ float: left;
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: center;
+  float: left;
   width: 50%;
   padding: 5px;
 }
@@ -108,9 +111,13 @@ float: left;
 }
 .row {
   display: flex;
+
+
 }
 
 .column {
   flex: 20%;
   padding: 5px;
+  font-size: 20px;
+  margin-left: 300px;
 }
